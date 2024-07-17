@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div id="fakebody">
+        <div id = "left" style="display:block; align-items: center; justify-content: center;">
+            <img id="sign" src="sign.png" style="width: 30%;">
+            <div id="sm">
+                <a href="https://www.instagram.com/alicehacks_">
+                    <img id="social" src="instagram.png">
+                </a>
+                <a href="https://www.linkedin.com/company/alicehacks">
+                    <img id="social" src="linkedin.png">
+                </a>
+                <a href="https://twitter.com/AliceHacks_">
+                    <img id="social" src="twitter.png">
+                </a>
+                <a href="https://www.youtube.com/watch?v=sqQGPxn-3uM&">
+                    <img id="social" src="youtube.png">
+                </a>
+            </div>
+        </div>
+        
+        <div id="down" >
+            <img id="hole" src="hole.png" style="width: 100%; position: absolute">
+            <img id="bunny" src="bunny.png" style="width: 100%; position: absolute">
+            <img id="bottom" src="bottom.png" style="width: 100%; position: absolute">
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+    document.getElementById('bottom').addEventListener('mouseover', function() {
+        document.getElementById('bunny').style.transform = 'translateY(-50%)'; // Adjust the value as needed
+    });
+    
+    document.getElementById('bottom').addEventListener('mouseout', function() {
+        document.getElementById('bunny').style.transform = 'translateY(0)'; // Reset to original position
+    });
+    </script>
+    
+</html>

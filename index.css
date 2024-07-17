@@ -1,0 +1,46 @@
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-50px); } /* Adjust the bounce height */
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-25px); }
+    100% { transform: translateY(0); }
+}
+#down{
+    position:absolute;
+    margin-left:50%;
+    margin-top:-10%;
+    width:13%;
+}
+
+
+#bottom:hover ~ #bunny {
+    transform: translateY(-20px); /* Adjust the value to control how much the bunny moves up */
+}
+
+#bunny{
+    transition: transform 0.3s ease
+}
+#bottom{
+    transition: transform 0.3s ease
+}
+
+#social{
+    width: 60%;
+}
+
+#sm{
+    
+    width:30%;
+    margin-left:4%;
+    display:flex;
+    flex-direction: row;
+}
+
+#left{
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+#fakebody{
+    margin-left:5%;
+}

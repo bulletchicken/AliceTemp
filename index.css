@@ -28,6 +28,12 @@
     width: 60%;
 }
 
+#title{
+    margin-left:30%;
+    margin-top:5%;
+    width:40%;
+}
+
 #sm{
     
     width:30%;
@@ -38,7 +44,6 @@
 
 #left{
     margin-left: 20%;
-    margin-top: 15%;
 }
 
 #fakebody{
